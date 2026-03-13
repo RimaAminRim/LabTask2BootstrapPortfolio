@@ -1,0 +1,147 @@
+/*  Body & Font  */
+body {
+    background-color: #c7f8ed;  
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar  */
+.navbar {
+    background-color: #004f5f !important; 
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.navbar .nav-link {
+    background-color: #e7d6a5;
+    color: #001219 !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #001219;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Active link */
+.navbar .nav-link.active {
+    background-color: #008fee;
+    color: #fff !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #18252b;
+}
+
+/* Cards */
+.card {
+    background-color: #e9cee7; 
+    border: 2px solid #005f73;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+/* Card hover zoom effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/*  Buttons */
+.btn-primary {
+    background-color: #ee6c4d;
+    border: 1px solid #ee6c4d;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c61;
+    border-color: #ff8c61;
+}
+
+.btn-success {
+    background-color: #3d5a80;
+    border: 1px solid #3d5a80;
+}
+
+.btn-success:hover {
+    background-color: #4e6a99;
+    border-color: #4e6a99;
+}
+
+/*  Alerts */
+.alert {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/*  Badges */
+.badge {
+    background-color: #ee6c4d;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Carousel  */
+.carousel-inner {
+    border-radius: 15px;
+    background-color: #398d9e; 
+    padding: 3 rem;
+}
+
+/*  Tables  */
+.table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #3d5a80;
+    color: #fff;
+}
+
+.table td {
+    background-color: #f0f8ff;
+}
+
+/* Forms  */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #005f73;
+}
+
+form button {
+    font-weight: bold;
+}
+
+/* Footer  */
+footer {
+    background-color: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+/* Centering Text  */
+.text-center {
+    text-align: center !important;
+}
+
+/* Preformatted Text */
+pre {
+    background-color: #caf0f8;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #005f73;
+}
